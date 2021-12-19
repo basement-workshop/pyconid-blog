@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
-    },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    title: `Python Conference Indonesia Blog`,
+    // author: {
+    //   name: `Kyle Mathews`,
+    //   summary: `who lives and works in San Francisco building useful things.`,
+    // },
+    description: `A blog about Python Conference Indonesia.`,
+    siteUrl: `https://blog.pycon.id/`
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -105,7 +102,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Python Conference Indonesia Blog RSS Feed",
           },
         ],
       },
@@ -113,8 +110,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Python Conference Indonesia Blog`,
+        short_name: `PyCon ID`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
