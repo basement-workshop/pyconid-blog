@@ -122,6 +122,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-umami`,
+      options: {
+        websiteId: 'f8fcbbac-f394-4a81-acca-9ca9341f318e',
+        srcUrl: 'https://analytics.kasoutech.cyou/umami.js',
+        includeInDevelopment: false,
+        autoTrack: true,
+        respectDoNotTrack: true
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
